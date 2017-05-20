@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="379.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <VBox prefHeight="350.0" prefWidth="379.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="256.0" prefWidth="379.0">
+               <children>
+                  <TextField fx:id="tfClothesPrice" layoutX="129.0" layoutY="38.0" prefHeight="25.0" prefWidth="74.0" AnchorPane.leftAnchor="129.0" AnchorPane.topAnchor="38.0" />
+                  <Label alignment="TOP_RIGHT" layoutX="25.0" layoutY="42.0" prefHeight="17.0" prefWidth="90.0" text="Clothes price" textAlignment="RIGHT" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="42.0" />
+                  <Label alignment="TOP_RIGHT" layoutX="25.0" layoutY="80.0" prefHeight="17.0" prefWidth="90.0" text="Shoes price" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="80.0" />
+                  <TextField fx:id="tfShoesPrice" layoutX="129.0" layoutY="76.0" prefHeight="25.0" prefWidth="74.0" AnchorPane.leftAnchor="129.0" AnchorPane.topAnchor="76.0" />
+                  <TextField fx:id="tfAccessoriesPrice" layoutX="129.0" layoutY="117.0" prefHeight="25.0" prefWidth="74.0" AnchorPane.leftAnchor="129.0" AnchorPane.topAnchor="117.0" />
+                  <Label layoutX="25.0" layoutY="121.0" text="Accessories price" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="121.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="117.0" prefWidth="419.0">
+               <children>
+                  <HBox prefHeight="149.0" prefWidth="379.0">
+                     <children>
+                        <Button fx:id="btnNoDiscount" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="No discount">
+                           <HBox.margin>
+                              <Insets bottom="35.0" left="10.0" right="10.0" top="35.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="btnPremiumDiscount" mnemonicParsing="false" prefHeight="25.0" prefWidth="113.0" text="Premium discount">
+                           <HBox.margin>
+                              <Insets bottom="35.0" left="10.0" right="10.0" top="35.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="btnVipDiscount" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" text="Vip discount">
+                           <HBox.margin>
+                              <Insets bottom="35.0" left="10.0" right="10.0" top="35.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

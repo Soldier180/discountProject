@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ResultWindowController">
+   <children>
+      <HBox prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="123.0">
+               <children>
+                  <Label alignment="TOP_RIGHT" prefHeight="17.0" prefWidth="69.0" text="Clothes">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_RIGHT" prefHeight="17.0" prefWidth="67.0" text="Shoes">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_RIGHT" prefHeight="17.0" prefWidth="79.0" text="Accessories">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="135.0">
+               <children>
+                  <Label fx:id="lblClothes">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="lblShoes">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="lblAccessories">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
