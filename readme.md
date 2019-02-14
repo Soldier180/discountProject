@@ -1,0 +1,3 @@
+#1. Please demonstrate data exploration (is the data evenly distributed ? is it important?)
+Answer:
+The distribution of target variables is close to normal, which may lead to a over-estimation of small swine, and to an under-estimation of heavy pigs. However If we think the data generating process is truly linear, then imbalance doesn’t matter. Of course, this is rarely the case. If your sampling isn’t representative of the population (or the distribution of interest), then the easiest thing to do is just perform weighted least squares. SMUTE-algos (over-sampling) or assign weight for each sample can be used to improve result.
